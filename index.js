@@ -1,8 +1,4 @@
-const cool = require('cool-ascii-faces');
-const express = require('express');
-const app = express();
-const path = require('path');
-const PORT = process.env.PORT || 8000;
+const http = require('http');
 
 app
   // .use(express.static(path.join(__dirname, 'public')))
